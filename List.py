@@ -29,3 +29,4 @@ print()
 names = ["Anush" , "Ansh", "Rose" , "Lokesh" , "Pilu"]
 namesWith_0 = [item for item in names if "u" in item]
 print(namesWith_0)
+

@@ -40,3 +40,42 @@ for i in range(3):
       print("The Correct Option is A ")
       print()
       break
+
+  elif (i == 1):
+    print(q2[0])
+    print(q2[1])
+    print(q2[2])
+    print(q2[3])
+    print(q2[4])
+    a = input("Enter Your Option :")
+    if (a == q2[5]):
+      print("Congratulation You won Rs")
+      prize = prize + p1
+      print(prize)
+      print()
+    else:
+      print()
+      print("Sorry You are Wrong and You have won Rs")
+      print(prize)
+      print("The Correct Option is C ")
+      print()
+      break
+  elif (i == 2):
+    print(q3[0])
+    print(q3[1])
+    print(q3[2])
+    print(q3[3])
+    print(q3[4])
+    a = input("Enter Your Option :")
+    if (a == q3[5]):
+      print("Congratulation You won Rs")
+      prize = prize + p1
+      print(prize)
+      print()
+      print("See you soon !")
+    else:
+      print()
+      print("Sorry You are Wrong and You have won Rs")
+      print(prize)
+      print("The Correct Option is A ")
+      break
