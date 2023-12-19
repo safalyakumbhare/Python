@@ -1,8 +1,11 @@
 num = 4
-print(type(num))
+print(num, type(num))
 
 name = "Saflya"
-print(type(name))
+print(name, type(name))
 
 pi = 3.14
-print(type(pi))
+print(pi, type(pi))
+
+hence = True
+print(hence, type(hence))
