@@ -1,3 +1,4 @@
-a = input("Enter the value for A :")
-b = input("Enter the value for B :")
-print(a==b and b==a)
+# The and operator returns true if both the conditions and true otherwise in case a single conndition is false then it will return false output
+a = input("Enter a boolean Value :")
+b = input("Enter a boolean Value :")
+print(a and b)
