@@ -1,3 +1,3 @@
 a = input("Enter the value for A :")
 b = input("Enter the value for B :")
-print(a&b)
+print(a==b and b==a)
