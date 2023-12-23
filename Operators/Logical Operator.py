@@ -1,4 +1,4 @@
-# The and operator returns true if both the conditions and true otherwise in case a single conndition is false then it will return false output
 a = input("Enter a boolean Value :")
 b = input("Enter a boolean Value :")
-print(a and b)
+print(a and b) #Return false if one condition is false else true
+print(a or b) #Return false if both condition is false else true
