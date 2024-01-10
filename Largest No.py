@@ -4,8 +4,8 @@ b= int(input("Enter Second number :"))
 c = int(input("Enter Third number :"))
 print("Your Entered Numbers are :",a,b,c)
 if(a>b and b>c) :
-    print(a,"is Largest")
+    print(a,"is the Largest Number among three numbers")
 elif(b>a and a>c):
-    print(b,"is Largest")
+    print(b,"is the Largest Number among three numbers")
 else:
-    print(c,"is Largest")
+    print(c,"is the Largest Number among three numbers")
