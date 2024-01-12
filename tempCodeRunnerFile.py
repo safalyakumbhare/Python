@@ -1,2 +1,2 @@
-00):
-    r = random.r
+
+fact = 1
