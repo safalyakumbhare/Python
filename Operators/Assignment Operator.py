@@ -10,3 +10,6 @@ print(c)
 d = 10
 d /=2
 print(d) #Divide "/="
+e = 15
+e %=4
+print(e) #Modulus "%="
