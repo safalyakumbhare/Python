@@ -1,3 +1,4 @@
-a = int(input("Enter a number :"))
-b = int(input("Enter a number :"))
-print(a>=b)
+num = 0
+num = bool(num)
+print(num)
+print(type(num))
