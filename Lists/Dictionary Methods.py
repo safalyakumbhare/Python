@@ -1,5 +1,5 @@
 d = { "faculties" :{"BA": "Bhagyshree Ambulkar", "DS": "Dhiraj Shembekar", "RI": "Rekha Israni"},"SJ":"Sudhir Juare"}
-
+d.update({"Printer":"Jitu Dada"}) # Used to add new items
 print(
     "The Value of the key BA is : ", (d["faculties"]["BA"])
 )  # Printing  the value by using key name i.e., BA, DS etc..
