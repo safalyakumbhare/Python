@@ -1,5 +1,5 @@
-#Print 1 to 20  in reverse order
-i = 20
+#Print 1 to 50  in reverse order
+i = 50
 while (i>=1):
     print(i)
     i-=1
