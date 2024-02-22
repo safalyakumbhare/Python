@@ -1,3 +1,4 @@
-f = open("file1.txt", "r")
+f = open("demo.txt
+         ", "r")
 data = f.read()
 print(data)
