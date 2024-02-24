@@ -1,8 +1,5 @@
-f = open("demo.txt","w")
-f.write("Another Statement")
-data = f.read();
-print(data)
-
+f = open("D:\All Programs\Python\File Handling\demo.txt","w")
+f.write("Hey! There I m writing a new statement")
 
 
 f.close()
