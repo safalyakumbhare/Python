@@ -8,4 +8,4 @@ def hello():
     
 w.title("Student Admission Form")
 Button(text="Click",command=hello).pack(padx=10)
-
+w.mainloop()
