@@ -1,0 +1,6 @@
+file = open("newfile","a+")
+file.write("This is the New file")
+file.write(" and writing more data using append.")
+fileread = open("newfile","r")
+data = fileread.read()
+print(data)
