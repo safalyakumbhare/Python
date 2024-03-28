@@ -1,8 +1,8 @@
-file = open("newfile","w")
-file.write("This is the New file")
+# file = open("newfile","w")
+# file.write("This is the New file")
 
-fileappend = open("newfile","a")
-file.write(" and writing more data using append.")
+# fileappend = open("newfile","a")
+# file.write(" and writing more data using append.")
 
 fileread = open("newfile","r")
 data = fileread.read()
