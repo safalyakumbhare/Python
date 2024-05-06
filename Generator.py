@@ -1,7 +1,7 @@
-def count(num):
-    for i in range(1,num+1):
+def interval(num):
+    for i in range(num,1,-1):
         yield i
 
-show = count(10)
-for n in show:
-    print(n)
+show = interval(10)
+for x in show: 
+    print(x)
