@@ -1,6 +1,7 @@
-class Demo:
-    def hi(self):
-        print("Hello OOPs")
+class test:
+    name1 = "Safalya"
+    name2 = "Prajakta"
 
-d = Demo()
-d.hi()
+t = test()
+print(t.name1)
+print(t.name2)
