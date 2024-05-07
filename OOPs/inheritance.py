@@ -1,25 +1,14 @@
-# Define the superclass
-class Animal:
-    def __init__(self, name):
-        self.name = name
+class student:
+    def getdata(self):
+        self.name = input("Enter the Name : ")
+        self.roll = int(input("Enter the Roll no."))
+    
 
-    def speak(self):
-        print(f"{self.name} makes a sound")
+class studdata(student):
+    def display(self):
+        print("Your Name ",self.name)
+        print("Your Roll ",self.roll)
 
-# Define a subclass inheriting from Animal
-class Dog(Animal):
-    def speak(self):
-        print(f"{self.name} barks")
-
-# Define another subclass inheriting from Animal
-class Cat(Animal):
-    def speak(self):
-        print(f"{self.name} meows")
-
-# Create instances of the subclasses
-dog = Dog("Buddy")
-cat = Cat("Whiskers")
-
-# Call the speak method of each instance
-dog.speak()  # Output: Buddy barks
-cat.speak()  # Output: Whiskers meows
+s = studdata()
+s.getdata()
+s.display()
