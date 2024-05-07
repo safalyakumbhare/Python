@@ -1,7 +1,11 @@
-def interval(num):
-    for i in range(num,1,-1):
-        yield i
+import time
 
-show = interval(10)
-for x in show: 
-    print(x)
+def countdown_generator():
+    num = 10
+    while num >= 1:
+        yield num
+        time.sleep(1)
+        num -= 1
+# Using a for loop to print the countdown
+for number in countdown_generator():
+    print(number)

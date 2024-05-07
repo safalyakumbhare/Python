@@ -14,8 +14,9 @@ l = Label(f,text="Enter Your Name ",)
 b = Button(f,text="Click",command=hello)
 e=Entry(f)
 l.pack()
-b.pack()
 e.pack()
+b.pack()
+
 f.pack()
 w.mainloop()
 

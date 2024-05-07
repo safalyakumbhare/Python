@@ -1,10 +1,10 @@
 class demo:
     def hello(self):
-        print("Hello, World!")
+        return "Hello, World!"
 
 class newdemo(demo):
     def hello(self):
-        print("I am Overriding Method")
+        return "I am Overriding Method"
 
 demo = demo()
 new = newdemo()
