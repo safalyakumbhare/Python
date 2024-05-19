@@ -1,9 +1,8 @@
 #Recursion means a function callng it self repeatedly
 
-def num(n):
-    if(n==0): #Base it is like giving condition to a loop
-        return 
-    print(n)  
-    num(n-1)
-
-num(10)
+def fact(num):
+    if num == 1:
+        return 1
+    return num * fact(num-1);
+num = int(input("Enter a number : "))
+print("The Factorial is of ",num,"is ",fact(num))

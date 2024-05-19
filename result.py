@@ -9,5 +9,7 @@ elif per >= 70 and per < 80:
     print("Grade : B")
 elif per >= 60 and per < 70:
     print("Grade : C")
+elif per >= 40 and per < 60:
+    print("Grade : D")
 else:
-    print("Grade :D")
+    print("Grade : E")
